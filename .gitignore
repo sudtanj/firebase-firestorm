@@ -5,3 +5,4 @@ coverage
 service-account.json
 firebase-firestorm.code-workspace
 .env
+.idea/

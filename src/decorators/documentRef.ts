@@ -87,8 +87,10 @@ const toData = (
   value: IDocumentRef<IEntity> | IDocumentRef<IEntity>[],
 ): Record<string, any> | Record<string, any>[] | undefined => {
   const valueToData = (v: IDocumentRef<IEntity>): Record<string, any> | undefined => {
-    if (v.isFetched() && v.cached !== null) {
-      return v.cached.toData();
+    if(v) {
+      if (v.isFetched() && v.cached !== null) {
+        return v.cached.toData();
+      }
     }
   };
   if (isArray) {
