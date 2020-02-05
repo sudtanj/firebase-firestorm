@@ -1,5 +1,5 @@
 {
-  "name": "firebase-firestorm",
+  "name": "@sudtanj/firebase-firestorm",
   "version": "0.0.0-development",
   "description": "A firestore ORM for Typescript",
   "main": "lib/index.js",
@@ -22,6 +22,9 @@
     "lib/**/*"
   ],
   "author": "Lewis McQuillan",
+  "contributors": [
+    "Sudono Tanjung"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/lmcq/firebase-firestorm"
