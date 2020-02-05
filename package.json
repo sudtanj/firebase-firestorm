@@ -30,6 +30,7 @@
     "url": "https://github.com/lmcq/firebase-firestorm"
   },
   "license": "MIT",
+  "private": false,
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/chai-as-promised": "^7.1.0",
